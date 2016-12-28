@@ -19,8 +19,11 @@
                 <version>1.0.0-SNAPSHOT</version>
                 <executions>
                     <execution>
+                        <!-- If specify the phase, the execution will only executed with the
+                         specified phase -->
+                        <phase>clean</phase>
                         <goals>
-                            <!--<goal>hello</goal>-->
+                            <goal>hello</goal>
                         </goals>
                     </execution>
                 </executions>

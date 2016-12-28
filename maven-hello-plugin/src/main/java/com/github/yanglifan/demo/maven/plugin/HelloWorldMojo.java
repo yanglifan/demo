@@ -9,6 +9,9 @@ import org.apache.maven.plugins.annotations.Mojo;
 @Mojo(name = "hello", defaultPhase = LifecyclePhase.COMPILE)
 public class HelloWorldMojo extends AbstractMojo {
     public void execute() throws MojoExecutionException, MojoFailureException {
-        getLog().info("Hello, World!!!");
+        getLog().info("================ Hello, World!!! ================");
+        getLog().info("================ Hello, World!!! ================");
+        getLog().info("================ Hello, World!!! ================");
+        getLog().info("================ Hello, World!!! ================");
     }
 }
